@@ -1,0 +1,72 @@
+// Styling for the team section
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+  img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid $white;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+
+}
+  .btn-primary { 
+    background-color: #14868e;
+    border-color: #14868e;
+  }
+  
+  .text-primary{
+   color: #14868e!important;
+ }
+
+  #mainNav.navbar-shrink{ 
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(60,64,67,.08),0 1px 3px 1px rgba(60,64,67,.16);
+  }
+  
+  .trocaCor{ 
+    color: #14868e!important; 
+    font-weight:bold;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link.active, 
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #1e4e68!important;
+    font-weight: bold;
+
+}
+
+.service-heading + p {
+  text-align: justify!important;
+}
+
+.cardArticles{
+    background: #f8f8f8e6;
+    padding: 17px;
+    box-shadow: 0 1px 1px 0 rgba(60,64,67,.08),0 1px 3px 1px rgba(60,64,67,.16);
+    margin-left: 5px;
+
+}
+.timeline > li .timeline-image { background-color: #14868e !important;}
+header.masthead{ background-attachment: fixed; background-position: top; height: 980px;}
+
+.btn-primary:hover,#portfolio .portfolio-item .portfolio-link .portfolio-hover,ul.social-buttons li a:hover {
+    background-color: rgba(30,78,104, 0.9)!important;
+    border-color: #1e4e68 !important;
+   
+}
+
+.copyright{ color:#1e4e68!important; }
+.directForm{font-weight:bold;color:#329097!important;}
+.intro-heading, #btnIntro{
+  
+  opacity: 0.75!important;
+  
+}
