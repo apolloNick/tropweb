@@ -1,56 +1,21 @@
 # Tropweb
-Projeto Integrador 
-
 UNIVERSIDADE NOVE DE JULHO
 PROJETO DE QUALIFICAÇÃO TECNOLÓGICA EM GESTÃO
 
-GDG Solutions
-
-
-
-
-
-
-
-
-
-
-
-
-Documento de Requisitos Sistema TROPWEB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-São Paulo 
-2019
+Projeto Integrador - Sistema TROPWEB - GDG SOLUTIONS
 
 Sumário
-
-
+-------------------------------------------------------
 1.	Introdução
 1.1.	Propósito do Documento
 1.2.	Escopo do Produto
 1.3.	Definição e Abreviações
 1.4.	Visão Geral do Documento
 
-
 2.	Descrição Geral
 2.1.	Perspectiva do Produto
 2.2.	Funções do Produto
 2.3.	 Restrições Gerais
-
 
 3.	Requisitos
 3.1.	Requisitos Funcionais
@@ -155,7 +120,6 @@ O Sistema será feito HTML, CSS, Javascript que são as principais linguagens de
 
 RFN. 3: Hardware
 A máquina servidora do banco de dados será a utilizada no Laboratório de Inteligência Artificial e Automação.
-
 
 3.3-Outros Requisitos
 Por ser uma aplicação WEB ela indifere o tipo de Sistema Operativo. 
