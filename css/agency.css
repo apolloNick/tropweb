@@ -612,7 +612,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .service-heading + p {
-  text-align: justify !important;
+  text-align: left !important;
 }
 
 .cardArticles {
@@ -630,7 +630,7 @@ header.masthead .intro-text .intro-heading {
 header.masthead {
   background-attachment: fixed;
   background-position: top;
-  height: 980px;
+  height: 70rem;
 }
 
 .btn-primary:hover, #portfolio .portfolio-item .portfolio-link .portfolio-hover, ul.social-buttons li a:hover {
