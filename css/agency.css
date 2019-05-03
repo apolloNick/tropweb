@@ -600,7 +600,7 @@ header.masthead .intro-text .intro-heading {
   box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08), 0 1px 3px 1px rgba(60, 64, 67, 0.16);
 }
 
-.trocaCor {
+.changeColor {
   color: #14868e !important;
   font-weight: bold;
 }
@@ -633,7 +633,8 @@ header.masthead {
   height: 70rem;
 }
 
-.btn-primary:hover, #portfolio .portfolio-item .portfolio-link .portfolio-hover, ul.social-buttons li a:hover {
+.btn-primary:hover, #portfolio .portfolio-item .portfolio-link
+.portfolio-hover, ul.social-buttons li a:hover {
   background-color: rgba(30, 78, 104, 0.9) !important;
   border-color: #1e4e68 !important;
 }
@@ -649,6 +650,10 @@ header.masthead {
 
 .intro-heading, #btnIntro {
   opacity: 0.75 !important;
+}
+
+#starter:active {
+  color: #fff !important;
 }
 
 section#contact {

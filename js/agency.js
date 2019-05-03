@@ -30,10 +30,10 @@
   var navbarCollapse = function () {
     if ($('#mainNav').offset().top > 100) {
       $('#mainNav').addClass('navbar-shrink')
-      $('#navbarResponsive li a').addClass('trocaCor')
+      $('#navbarResponsive li a').addClass('changeColor')
     } else {
       $('#mainNav').removeClass('navbar-shrink')
-      $('#navbarResponsive li a').removeClass('trocaCor')
+      $('#navbarResponsive li a').removeClass('changeColor')
     }
   }
   // Collapse now if page is not at top
