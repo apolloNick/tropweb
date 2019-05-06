@@ -585,9 +585,10 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
-.btn-primary {
-  background-color: #14868e;
-  border-color: #14868e;
+.btn-primary, .btn-primary:focus, .btn-primary:active {
+  background-color: #14868e !important;
+  border-color: #14868e !important;
+  outline: none;
 }
 
 .text-primary {
@@ -650,10 +651,34 @@ header.masthead {
 
 .intro-heading, #btnIntro {
   opacity: 0.75 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 #starter:active {
   color: #fff !important;
+}
+
+.intro-text {
+  display: none;
+}
+
+.nav-link:focus, .nav-link:focus, .navbar-brand:active, .navbar-brand:focus {
+  outline: none !important;
+}
+
+/*#btnIntro,.intro-heading{opacity:.75!important;}*/
+#sendMessageButton:active, #sendMessageButton:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+body {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
 }
 
 section#contact {

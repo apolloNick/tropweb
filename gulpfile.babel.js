@@ -58,6 +58,9 @@ function modules () {
   // jQuery Easing
   var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
     .pipe(gulp.dest('./vendor/jquery-easing'))
+
+  var cssAnimate = gulp.src('./node_modules/animate.css/*.css')
+    .pipe(gulp.dest('./vendor/animatecss/'))
   // jQuery
   var jquery = gulp.src([
     './node_modules/jquery/dist/*',

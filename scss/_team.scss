@@ -17,9 +17,10 @@
   }
 
 }
-  .btn-primary { 
-    background-color: #14868e;
-    border-color: #14868e;
+  .btn-primary,.btn-primary:focus, .btn-primary:active { 
+    background-color: #14868e!important;
+    border-color: #14868e!important;
+    outline:none;
   }
   
   .text-primary{
@@ -27,7 +28,7 @@
  }
 
   #mainNav.navbar-shrink{ 
-    background-color: #fff;
+    background-color: $white;
     box-shadow: 0 1px 1px 0 rgba(60,64,67,.08),0 1px 3px 1px rgba(60,64,67,.16);
   }
   
@@ -68,8 +69,20 @@ header.masthead{ background-attachment: fixed; background-position: top; height:
 .directForm{font-weight:bold;color:#329097!important;}
 .intro-heading, #btnIntro{  
   opacity: 0.75!important;
-  
+  box-shadow: none!important;
 }
 
-#starter:active{ color: #fff!important; }
+#starter:active{ color: $white!important; }
 
+.intro-text{display: none;}
+.nav-link:focus,.nav-link:focus, .navbar-brand:active,.navbar-brand:focus {
+  outline: none!important;
+}
+
+/*#btnIntro,.intro-heading{opacity:.75!important;}*/
+
+
+#sendMessageButton:active,#sendMessageButton:focus{ outline: none !important;
+   box-shadow: none!important;}
+
+body{user-select: none!important;}
