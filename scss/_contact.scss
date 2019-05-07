@@ -45,3 +45,10 @@ section#contact {
     @include heading-font;
   }
 }
+
+.directForm{font-weight:bold;color:#329097!important;}
+#sendMessageButton:active,
+#sendMessageButton:focus{
+   outline: none!important;
+   box-shadow: none!important;
+ }
