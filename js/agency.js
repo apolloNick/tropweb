@@ -18,6 +18,7 @@
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function () {
     $('.navbar-collapse').collapse('hide')
+    
   })
 
   // Activate scrollspy to add active class to navbar items on scroll
@@ -29,10 +30,12 @@
   // Collapse Navbar
   var navbarCollapse = function () {
     if ($('#mainNav').offset().top > 100) {
-      $('#mainNav').addClass('navbar-shrink')
-      $('#navbarResponsive li a').addClass('changeColor')
+        $('#mainNav').addClass('navbar-shrink')
+        $('#tropweb_logo').css('visibility', 'visible')
+        $('#navbarResponsive li a').addClass('changeColor')
     } else {
       $('#mainNav').removeClass('navbar-shrink')
+      $('#tropweb_logo').css('visibility', 'hidden')
       $('#navbarResponsive li a').removeClass('changeColor')
     }
   }
